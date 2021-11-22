@@ -21,13 +21,14 @@ public class VerificaPalindrome {
 		for(int i = length -1; i >= 0 ; i--) {
 			 parolaPalindroma = parolaPalindroma + parola.charAt(i);
 			 
+		}
 			 if(parola.equals(parolaPalindroma)) {
-				 System.out.println("la parola " + parola + " è una parola palindroma " + "ed è lunga: " + length);
-				 break;
+				 System.out.println("La parola " + parola + " è una parola palindroma " + "ed è lunga: " + length);
+				 
 				 
 			 }else {
-				 System.out.println("non lo è");
-			 }
+				 System.out.println("Non è un parola palindroma " + "ed è lunga: " + length);
+			
 			 
 		}
 		scan.close();
